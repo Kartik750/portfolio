@@ -114,7 +114,7 @@ const Footer = (props) => {
         )}
       </div>
       <p className="small" style={{ marginTop: 0, color: "white" }}>
-        Created by {name}
+        Created with <span style={{color:"red", fontSize: "1.5rem"}}>&#x2665;</span> by {name}
       </p>
     </div>
   );
